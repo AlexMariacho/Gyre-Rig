@@ -1,18 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IController : MonoBehaviour
+﻿namespace App.Scripts.Interfaces
 {
-    // Start is called before the first frame update
-    void Start()
+    public interface IController
     {
+        void Activate();
         
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        void Deactivate();
     }
 }
