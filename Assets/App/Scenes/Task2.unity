@@ -200,9 +200,9 @@ MonoBehaviour:
   _spawnPostion: {fileID: 172726439}
   _rootSpawn: {fileID: 172726439}
   _direction: 3
-  _speed: 2
+  _speed: 5
   _timeRespawn: 2
-  _distanceToKill: 5
+  _distanceToKill: 10
 --- !u!1 &720534520
 GameObject:
   m_ObjectHideFlags: 0
